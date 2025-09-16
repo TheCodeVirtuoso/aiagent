@@ -1,0 +1,10 @@
+timestamp,source_ip,destination_port,event_type,details
+2023-10-27 08:05:12,192.168.1.10,80,HTTP Traffic,User 'jsmith' accessed internal web server for documentation.
+2023-10-27 09:15:30,103.56.12.140,22,Failed Login,SSH login attempt failed for user 'root' from Geo: China.
+2023-10-27 09:15:31,103.56.12.140,22,Failed Login,SSH login attempt failed for user 'admin' from Geo: China.
+2023-10-27 09:15:32,103.56.12.140,22,Failed Login,SSH login attempt failed for user 'root' from Geo: China.
+2023-10-27 10:01:00,192.168.1.25,443,Successful Login,User 'admin' logged in successfully to finance server from trusted internal IP.
+2023-10-27 11:30:45,203.0.113.55,3389,Connection Attempt,RDP connection attempt from unknown external IP. Geo: Russia.
+2023-10-27 14:22:10,192.168.1.15,53,DNS Query,DNS query for 'evil-phishing-domain.xyz' detected from marketing department PC.
+2023-10-27 15:00:05,45.77.65.12,8080,Port Scan,TCP SYN scan detected on high port from external IP. Geo: Netherlands.
+2023-10-27 16:10:15,192.168.1.40,445,File Access,Anomalous access to sensitive 'Project_Titan' folder on file server.s
